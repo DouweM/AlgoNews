@@ -9,7 +9,7 @@
 
   "content_scripts": [
     {
-        "matches":  ["http://hckrnews.com/"],
+        "matches":  ["http://hckrnews.com/", "http://www.hckrnews.com/"],
         "js":       ["vendor/underscore.js", "src/algonews.js", "src/hckrnews.js"]
     },
     {
